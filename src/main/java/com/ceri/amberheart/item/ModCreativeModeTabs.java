@@ -32,6 +32,7 @@ public class ModCreativeModeTabs {
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(Amberheart.MOD_ID, "amberheart_items_tab")) // This places the Blocks tab AFTER the Items tab.
                     .displayItems((ItemDisplayParameters, output) -> {
                         output.accept(ModBlocks.ARCANIC_ORE);
+                        output.accept(ModBlocks.DEEPSLATE_ARCANIC_ORE);
                         output.accept(ModBlocks.ARCANIC_DUST_BLOCK);
                     }).build());
 

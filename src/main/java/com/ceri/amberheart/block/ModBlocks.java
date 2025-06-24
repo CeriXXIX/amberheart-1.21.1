@@ -30,6 +30,15 @@ public class ModBlocks {
             )
     );
 
+    public static final DeferredBlock<Block> DEEPSLATE_ARCANIC_ORE = registerBlock("deepslate_arcanic_ore",
+            () ->   new DropExperienceBlock(UniformInt.of(3, 6),
+                    BlockBehaviour.Properties.of()
+                            .strength(3f)
+                            .requiresCorrectToolForDrops()
+                            .sound(SoundType.STONE)
+            )
+    );
+
     public static final DeferredBlock<Block> ARCANIC_DUST_BLOCK = registerBlock("arcanic_dust_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(2f)

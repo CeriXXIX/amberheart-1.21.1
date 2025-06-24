@@ -85,6 +85,7 @@ public class Amberheart {
         if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
             event.accept(ModBlocks.ARCANIC_DUST_BLOCK); // Adds the compacted version of Arcanic Dust.
             event.accept(ModBlocks.ARCANIC_ORE); // Adds the Arcanic Ore block.
+            event.accept(ModBlocks.DEEPSLATE_ARCANIC_ORE); // Adds the deepslate Arcanic Ore block.
         }
     }
 
