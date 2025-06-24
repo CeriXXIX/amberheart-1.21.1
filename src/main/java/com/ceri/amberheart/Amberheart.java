@@ -1,5 +1,6 @@
 package com.ceri.amberheart;
 
+import com.ceri.amberheart.item.ModItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -53,6 +54,8 @@ public class Amberheart {
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
+        ModItems.register(modEventBus);
+
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
@@ -63,9 +66,11 @@ public class Amberheart {
 
     }
 
-    // Add the example block item to the building blocks tab
+    // This adds custom items to a custom creative mode tab.
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.ARCANIC_DUST); // Adds Arcanic Dust.
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
