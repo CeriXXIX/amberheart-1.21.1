@@ -1,5 +1,6 @@
 package com.ceri.amberheart;
 
+import com.ceri.amberheart.block.ModBlocks;
 import com.ceri.amberheart.item.ModItems;
 import org.slf4j.Logger;
 
@@ -54,7 +55,10 @@ public class Amberheart {
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
+        // Registers Amberheart's items from ModItems.
         ModItems.register(modEventBus);
+        // Register's Amberheart's blocks and blockitems from ModBlocks.
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -70,6 +74,10 @@ public class Amberheart {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.ARCANIC_DUST); // Adds Arcanic Dust.
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+            event.accept(ModBlocks.ARCANIC_ORE); // Adds the Arcanic Ore block.
         }
     }
 
