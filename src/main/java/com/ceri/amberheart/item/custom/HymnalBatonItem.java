@@ -27,7 +27,7 @@ public class HymnalBatonItem extends Item {
     }
 
     @Override
-    public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> toolTipComponents, TooltipFlag toolTipFlag) {
+    public void appendHoverText(@NotNull ItemStack stack, Item.@NotNull TooltipContext context, List<Component> toolTipComponents, @NotNull TooltipFlag toolTipFlag) {
         toolTipComponents.add(Component.translatable("tooltip.amberheart.hymnal_baton.tooltip"));
         super.appendHoverText(stack, context, toolTipComponents, toolTipFlag);
     }
