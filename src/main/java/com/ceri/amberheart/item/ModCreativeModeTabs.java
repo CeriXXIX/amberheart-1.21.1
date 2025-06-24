@@ -23,6 +23,7 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.amberheart.amberheart_items_tab"))
                     .displayItems((ItemDisplayParameters, output) -> {
                         output.accept(ModItems.ARCANIC_DUST);
+                        output.accept(ModItems.HYMNAL_BATON);
                             }).build());
 
     // This block creates the Amberheart Blocks Tab.
