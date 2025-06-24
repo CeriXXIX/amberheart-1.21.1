@@ -42,7 +42,6 @@ public class ModBlocks {
     public static final DeferredBlock<Block> ARCANIC_DUST_BLOCK = registerBlock("arcanic_dust_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(2f)
-                    .requiresCorrectToolForDrops()
                     .sound(SoundType.WOOL)));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
