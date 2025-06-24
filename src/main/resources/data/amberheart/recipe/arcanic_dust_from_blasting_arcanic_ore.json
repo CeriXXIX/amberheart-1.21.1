@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "arcanic_dust",
+  "ingredient":{
+    "item": "amberheart:arcanic_ore"
+  },
+  "result":{
+    "count": 2,
+    "id": "amberheart:arcanic_dust"
+  }
+}
