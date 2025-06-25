@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "amberheart:block/arcanic_dust_block"
-  }
-}

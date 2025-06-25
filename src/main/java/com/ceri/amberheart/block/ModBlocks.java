@@ -2,11 +2,9 @@ package com.ceri.amberheart.block;
 
 import com.ceri.amberheart.Amberheart;
 import com.ceri.amberheart.item.ModItems;
-import com.mojang.blaze3d.shaders.Uniform;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.SoundType;

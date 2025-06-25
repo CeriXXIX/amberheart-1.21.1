@@ -12,9 +12,10 @@ public class ModItems {
     public static final DeferredRegister.Items ITEMS =
             DeferredRegister.createItems(Amberheart.MOD_ID);
 
-    //This registers the Arcanic Dust item.
+    // This registers the Arcanic Dust item.
     public static final DeferredItem<Item> ARCANIC_DUST = ITEMS.register("arcanic_dust",
             () -> new Item(new Item.Properties()));
+    // This registers the Hymnal Baton item.
     public static final DeferredItem<Item> HYMNAL_BATON = ITEMS.register("hymnal_baton",
             () -> new HymnalBatonItem(new Item.Properties().stacksTo(1).rarity(Rarity.UNCOMMON)));
 
