@@ -37,6 +37,8 @@ import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
+//TODO: Consider adding Runes!
+
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
 @Mod(Amberheart.MOD_ID)
 public class Amberheart {
