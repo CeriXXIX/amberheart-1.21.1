@@ -1,0 +1,10 @@
+// 1.21.1	2025-06-25T16:29:39.475334	Block States: amberheart
+27fef9824f534f905ca4d36f00bdbc9db758d797 assets/amberheart/blockstates/arcanic_dust_block.json
+f1d920bcc85cf46c874935bb1a895c5bc01834d5 assets/amberheart/blockstates/arcanic_ore.json
+41600aa74035834d4ad600755b9cf5fc140b95a8 assets/amberheart/blockstates/deepslate_arcanic_ore.json
+b4d8e9a4e0456ecdf466d28d020ba6c2904e368f assets/amberheart/models/block/arcanic_dust_block.json
+97c303b25abfb5a52134b3bf63b5084e94c31ad0 assets/amberheart/models/block/arcanic_ore.json
+b744c9196d3b08ff8be082f7981ac7109aec9451 assets/amberheart/models/block/deepslate_arcanic_ore.json
+7996a11d5205bf8bd113592b9cf2906198f1cfdc assets/amberheart/models/item/arcanic_dust_block.json
+024c87df51b8dc8a91a181fc00474422691e1ccb assets/amberheart/models/item/arcanic_ore.json
+a7b852d16e032cad803db010e074b7da161061c0 assets/amberheart/models/item/deepslate_arcanic_ore.json

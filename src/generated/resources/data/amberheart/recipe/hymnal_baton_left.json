@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "amberheart:arcanic_dust"
+    },
+    "F": {
+      "item": "minecraft:feather"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "FA ",
+    "AS ",
+    "  S"
+  ],
+  "result": {
+    "count": 1,
+    "id": "amberheart:hymnal_baton"
+  }
+}

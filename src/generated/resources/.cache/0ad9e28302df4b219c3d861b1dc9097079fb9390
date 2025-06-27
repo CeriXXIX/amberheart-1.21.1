@@ -1,0 +1,4 @@
+// 1.21.1	2025-06-25T18:47:26.5151946	Tags for minecraft:block mod id amberheart
+06913385f9fef4c3a92a5af34cafb8fb50d06077 data/minecraft/tags/block/mineable/pickaxe.json
+9360c9dbaa2929f145b28c76a36cf3a902c9c569 data/minecraft/tags/block/mineable/shovel.json
+06913385f9fef4c3a92a5af34cafb8fb50d06077 data/minecraft/tags/block/needs_iron_tool.json
